@@ -1,0 +1,61 @@
+/* All Elements CSS */
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+    color: white;
+}
+
+header {
+  background-color: black;
+}
+
+header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+header span {
+  padding: 1rem 0.66rem;
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+
+/* All Class CSS */
+
+.container {
+  width: 960px;
+}
+
+.heading .container {
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+}
+
+.headline {
+  background-color: black;
+  width: 20rem;
+  padding: 3rem 2rem;
+  position: relative;
+  top: 9rem;
+}
+
+
+/* All ID CSS */
