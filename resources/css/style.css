@@ -38,10 +38,18 @@ nav ul {
   padding: 0.75rem 0;
 }
 
+footer {
+  background-color: black;
+  padding: 5rem 0;
+  margin-top: 4rem;
+  text-align: left;
+}
+
 /* All Class CSS */
 
 .container {
   max-width: 960px;
+  align-content: center;
 }
 
 .heading .container {
@@ -71,6 +79,10 @@ nav ul {
 .navibar span {
   margin: 0rem 0.75rem;
   color: white
+}
+
+.mobile-nav {
+  display: none;
 }
 
 .items {
@@ -107,15 +119,49 @@ nav ul {
 .information {
   display: flex;
   justify-content: space-between;
-  width: 35%;
+  margin: 3rem 0 0 0;
 }
 
+
 .info {
+  width: 35%;
   margin: 3rem 0 0 0;
 }
 
 .title {
+  display: block;
   background-color: black;
-  padding: 2rem 1rem;
+  padding: 1rem 2rem;
+}
+
+.subtitle {
+  color: black;
 }
 /* All ID CSS */
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+  .item {
+    width: 47%;
+  }
+  .item.glasses {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-nav {
+    display: block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 470px) {
+  
+}
